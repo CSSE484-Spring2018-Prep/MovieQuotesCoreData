@@ -12,6 +12,7 @@
 		FD9C38A720697E2900643EB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9C38A520697E2900643EB0 /* Main.storyboard */; };
 		FD9C38A920697E2900643EB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9C38A820697E2900643EB0 /* Assets.xcassets */; };
 		FD9C38AC20697E2900643EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9C38AA20697E2900643EB0 /* LaunchScreen.storyboard */; };
+		FDD140A32069910800635468 /* MovieQuotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD140A22069910800635468 /* MovieQuotesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FD9C38A820697E2900643EB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD9C38AB20697E2900643EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD9C38AD20697E2900643EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD140A22069910800635468 /* MovieQuotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieQuotesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FD9C38AA20697E2900643EB0 /* LaunchScreen.storyboard */,
 				FD9C38AD20697E2900643EB0 /* Info.plist */,
 				FD9C389E20697E2900643EB0 /* MovieQuotesCoreData.xcdatamodeld */,
+				FDD140A22069910800635468 /* MovieQuotesTableViewController.swift */,
 			);
 			path = MovieQuotesCoreData;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD9C38A020697E2900643EB0 /* MovieQuotesCoreData.xcdatamodeld in Sources */,
+				FDD140A32069910800635468 /* MovieQuotesTableViewController.swift in Sources */,
 				FD9C389D20697E2900643EB0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
